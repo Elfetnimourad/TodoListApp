@@ -1,0 +1,101 @@
+.todoList {
+    display: flex; 
+    justify-content: center;
+
+}
+input {
+border-radius: 10px;
+padding: 5px;
+}
+.add{
+   height: 48px;
+   background-color: orangered !important;
+   color: white;
+   width: 40px;
+}
+.addBtn:hover{
+    opacity: 0.6;
+}
+
+.itemChecked{
+    text-decoration: line-through;
+}
+#itemCheckedId{
+    padding: 8px;
+    margin: 2px;
+    display: grid;
+    place-items: center;
+    float: left;
+}
+.item {
+    margin-top: 10px;
+    width: "fit-content";
+    width: 320px;
+    height: 48px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow:  8px 8px 8px blue;
+} 
+
+.item input {
+    border-radius: 50%;
+}
+#inputSize{
+    width: 320px !important;
+    
+}
+.cc{
+   border: none !important;
+   background-color: white;
+   cursor: pointer;
+   color: red;
+}
+.center-element{
+  display: flex;
+  align-items: center;
+padding: 8px;
+    float: right;
+}
+#checkboxNoLabel{
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+.BedTimeStyling{
+float: right;
+cursor: pointer;
+}
+.BedTimeOffStyling{
+    float: right;
+    cursor: pointer;
+}
+.darkMode{
+    background-color: darkslategray;
+    color: white;
+    border-radius: 15px;
+
+}
+.card{
+    border-radius: 15px;
+}
+@media (max-width:390px ) {
+    .card {
+     width: 100% !important;  
+    }
+  .item{
+    margin-left:15px ;
+  }
+  .add{
+    margin-right: -30px;
+    width: 35px;
+  }
+ 
+  
+  }
+  @media (390px < width <1000px  ) {
+    .card {
+     width: 100% !important;  
+    }
+ 
+ 
+  
+  }
